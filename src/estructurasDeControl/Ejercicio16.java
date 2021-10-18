@@ -35,8 +35,22 @@ la entrada por teclado) y que obtenga lo siguiente:
         }*/
 
         // con switch
-
-
+        switch (casa) {
+            case 1:
+                System.out.println("Valentía");
+                break;
+            case 2:
+                System.out.println("Lealtad");
+                break;
+            case 3:
+                System.out.println("Astucia");
+                break;
+            case 4:
+                System.out.println("Intelecto");
+                break;
+            default:
+                System.out.println("No es una casa válida");
+        }
 
     }
 }
