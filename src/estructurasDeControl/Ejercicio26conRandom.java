@@ -16,6 +16,8 @@ public class Ejercicio26conRandom {
 
         for (int i = 0; i < 10; i++) { // también valdría desde 1 mientras <=10
             // aquí genero el número
+            num = (int) (Math.random() * 100 + 1);
+            System.out.println("num =" + num);
             suma = suma + num;
             System.out.println("Suma en vuelta " + i + ": " + suma); // para saber lo que suma en cada vuelta
         }
