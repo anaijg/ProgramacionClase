@@ -23,9 +23,18 @@ son mayores que 0, menores que 0 e iguales a 0.
 
         for (int i = 1; i <= n; i++) {
             System.out.println("Número:");
-
-
+            número =sc.nextInt();
+            if (número > 0) {
+                contadorPositivos++; // también valdría: contadorPositivos = contadorPositivos + 1; o también contadorPositivos += contadorPositivos;
+            } else if (número < 0 ) {
+                contadorNegativos++;
+            } else {
+                contadorCeros++;
+            }
         }
+        System.out.println("Número de positivos: " + contadorPositivos);
+        System.out.println("Número de negativos: " + contadorNegativos);
+        System.out.println("Número de ceros: " + contadorCeros);
 
     }
 }
