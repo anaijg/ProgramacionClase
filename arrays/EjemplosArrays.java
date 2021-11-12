@@ -14,6 +14,9 @@ public class EjemplosArrays {
         // voy a declarar el array del ejemplo, inicializándolo a la vez:
         double[] array = {10.8, 14.3, 13.5, 12.1, 9.7};
 
+        // Si quiero cambiar el tercer elemento
+        array[2] = 14;
+
         // índice  de los elementos: 0 para el 1º, 1 pare el 2º
         // el índice del elemento que vale 10.8. es 0
         // el índice del elemento que vale 12.1 es 3
@@ -53,6 +56,8 @@ public class EjemplosArrays {
         System.out.println(numerosDecimales[1]);
         System.out.println(numerosDecimales[2]);
 
+        //
+
 
         // Ordenar arrays
         Arrays.sort(numerosDecimales); // ordeno el array
@@ -73,7 +78,7 @@ public class EjemplosArrays {
         int[] ej = new int[10];
 
         //que para cada elemento guarde el valor de su índice.
-        for (int i = 0; i < ej.length; i++) {
+        for (int i = 0; i < ej.length; i++) { // i < 10
             ej[i] = i;
         }
         System.out.println("Después del for:");
