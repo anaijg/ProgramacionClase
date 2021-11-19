@@ -39,6 +39,7 @@ números positivos,la media de los negativos y contar el número de ceros.
             } else {
                 contadorCeros++;
             }
+
         }
         //System.out.println("sumaPos = " + sumaPos);
         //System.out.println("contadorPos = " + contadorPos);
